@@ -1,0 +1,143 @@
+2018-02-28 15:23:23 --> 运行MyBatis-CMEU...
+---------------------->  at pers.Main.main(Main.java:38) 
+ 
+2018-02-28 15:23:24 --> 初始化首页...
+---------------------->  at pers.cmeu.controller.IndexController.initialize(IndexController.java:169) 
+ 
+2018-02-28 15:23:24 --> 初始化首页成功!
+---------------------->  at pers.cmeu.controller.IndexController.initialize(IndexController.java:194) 
+ 
+2018-02-28 15:23:24 --> 加载左侧数据库树与事件....
+---------------------->  at pers.cmeu.controller.IndexController.initialize(IndexController.java:195) 
+ 
+2018-02-28 15:23:24 --> 加载所有数据库到左侧树集成功!
+---------------------->  at pers.cmeu.controller.IndexController.initialize(IndexController.java:324) 
+ 
+2018-02-28 15:23:24 --> 执行查询默认配置信息并加载到首页...
+---------------------->  at pers.cmeu.controller.IndexController.initialize(IndexController.java:331) 
+ 
+2018-02-28 15:23:24 --> 加载配置信息到首页成功!
+---------------------->  at pers.cmeu.controller.IndexController.initialize(IndexController.java:333) 
+ 
+2018-02-28 15:23:47 --> 加载所有表....
+---------------------->  at pers.cmeu.controller.IndexController.lambda$null$6(IndexController.java:277) 
+ 
+2018-02-28 15:23:47 --> 加载所有表成功!
+---------------------->  at pers.cmeu.controller.IndexController.lambda$null$6(IndexController.java:295) 
+ 
+2018-02-28 15:24:13 --> 加载所有表....
+---------------------->  at pers.cmeu.controller.IndexController.lambda$null$6(IndexController.java:277) 
+ 
+2018-02-28 15:24:15 --> 加载所有表失败!!!com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+---------------------->  at pers.cmeu.controller.IndexController.lambda$null$6(IndexController.java:298) 
+ 
+2018-02-28 15:24:18 --> 初始化数据库连接窗口....
+---------------------->  at pers.cmeu.controller.ConnectionController.initialize(ConnectionController.java:47) 
+ 
+2018-02-28 15:24:18 --> 初始化数据库连接成功!
+---------------------->  at pers.cmeu.controller.ConnectionController.initialize(ConnectionController.java:52) 
+ 
+2018-02-28 15:26:42 --> 执行测试数据库连接...
+---------------------->  at pers.cmeu.controller.ConnectionController.testConnection(ConnectionController.java:91) 
+ 
+2018-02-28 15:26:42 --> 数据库测试连接成功!
+---------------------->  at pers.cmeu.controller.ConnectionController.testConnection(ConnectionController.java:100) 
+ 
+2018-02-28 15:26:44 --> 执行保存数据库连接...
+---------------------->  at pers.cmeu.controller.ConnectionController.saveConnection(ConnectionController.java:60) 
+ 
+2018-02-28 15:26:44 --> 保存数据库连接成功!
+---------------------->  at pers.cmeu.controller.ConnectionController.saveConnection(ConnectionController.java:70) 
+ 
+2018-02-28 15:26:45 --> 加载所有表....
+---------------------->  at pers.cmeu.controller.IndexController.lambda$null$6(IndexController.java:277) 
+ 
+2018-02-28 15:26:45 --> 加载所有表成功!
+---------------------->  at pers.cmeu.controller.IndexController.lambda$null$6(IndexController.java:295) 
+ 
+2018-02-28 15:33:45 --> 将表的数据加载到数据面板...
+---------------------->  at pers.cmeu.controller.IndexController.lambda$null$6(IndexController.java:304) 
+ 
+2018-02-28 15:33:45 --> 将表的数据加载到数据面板成功!
+---------------------->  at pers.cmeu.controller.IndexController.lambda$null$6(IndexController.java:314) 
+ 
+2018-02-28 15:36:11 --> 选择文件项目目录:G:\gitRe\gaib-frms
+---------------------->  at pers.cmeu.controller.IndexController.selectFile(IndexController.java:373) 
+ 
+2018-02-28 15:43:55 --> 准备开始执行创建所有文件...
+---------------------->  at pers.cmeu.controller.IndexController.runCreate(IndexController.java:468) 
+ 
+2018-02-28 15:43:55 --> 获取表的主键...
+---------------------->  at pers.cmeu.controller.IndexController.runCreate(IndexController.java:483) 
+ 
+2018-02-28 15:43:55 --> 获取表的所有列...
+---------------------->  at pers.cmeu.controller.IndexController.runCreate(IndexController.java:491) 
+ 
+2018-02-28 15:43:56 --> 初始化创建工具...
+---------------------->  at pers.cmeu.controller.IndexController.runCreate(IndexController.java:516) 
+ 
+2018-02-28 15:43:56 --> 开始执行创建所有文件...
+---------------------->  at pers.cmeu.controller.IndexController.runCreate(IndexController.java:542) 
+ 
+2018-02-28 15:43:56 --> 执行创建dao接口包!
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAll(CreateFileUtil.java:137) 
+ 
+2018-02-28 15:43:56 --> 执行创建ServiceImpl包!
+---------------------->  at pers.cmeu.common.CreateFileUtil.createServiceDir(CreateFileUtil.java:354) 
+ 
+2018-02-28 15:43:56 --> 执行获得表主键列对应的java数据类型...
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAll(CreateFileUtil.java:161) 
+ 
+2018-02-28 15:43:56 --> 获得表主键列对应的java数据类型成功!
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAll(CreateFileUtil.java:163) 
+ 
+2018-02-28 15:43:56 --> 执行生成实体类...
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAll(CreateFileUtil.java:174) 
+ 
+2018-02-28 15:43:56 --> 生成实体类成功!
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAll(CreateFileUtil.java:196) 
+ 
+2018-02-28 15:43:56 --> 执行生成dao
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAll(CreateFileUtil.java:200) 
+ 
+2018-02-28 15:43:56 --> 生成dao成功!
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAll(CreateFileUtil.java:216) 
+ 
+2018-02-28 15:43:56 --> 执行生成Mapper...
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAll(CreateFileUtil.java:220) 
+ 
+2018-02-28 15:43:56 --> 生成Mapper成功!
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAll(CreateFileUtil.java:231) 
+ 
+2018-02-28 15:43:56 --> 执行生成service...
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAll(CreateFileUtil.java:242) 
+ 
+2018-02-28 15:43:56 --> 生成service成功!
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAll(CreateFileUtil.java:258) 
+ 
+2018-02-28 15:43:56 --> 执行生成serviceImpl...
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAll(CreateFileUtil.java:262) 
+ 
+2018-02-28 15:43:56 --> 生成serviceImpl成功!
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAll(CreateFileUtil.java:283) 
+ 
+2018-02-28 15:43:56 --> 执行创建Assist包名!
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAll(CreateFileUtil.java:295) 
+ 
+2018-02-28 15:43:56 --> 准备创建Assist帮助类...
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAssist(CreateFileUtil.java:366) 
+ 
+2018-02-28 15:43:56 --> 读取Assist模板...
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAssist(CreateFileUtil.java:367) 
+ 
+2018-02-28 15:43:56 --> 执行创建...
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAssist(CreateFileUtil.java:372) 
+ 
+2018-02-28 15:43:56 --> Assist帮助类创建成功!
+---------------------->  at pers.cmeu.common.CreateFileUtil.createAssist(CreateFileUtil.java:374) 
+ 
+2018-02-28 15:43:56 --> 创建所有文件成功!
+---------------------->  at pers.cmeu.controller.IndexController.runCreate(IndexController.java:549) 
+ 

@@ -1,0 +1,10 @@
+2017-11-09 10:58:17 --> 加载所有表失败!!!com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+---------------------->  at pers.cmeu.controller.IndexController.lambda$3(IndexController.java:298) 
+ 
+2017-11-09 11:01:03 --> 加载所有表失败!!!com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+---------------------->  at pers.cmeu.controller.IndexController.lambda$3(IndexController.java:298) 
+ 
